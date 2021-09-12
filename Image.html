@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload Preview</title>
+    <link rel="stylesheet" href="Image.css">
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <div class="preview">
+                <img id="file-ip-1-preview">
+                <label for="file-ip-1">Upload Image</label>
+                <br>
+                <input type="file"  id="file-ip-1" accept="image/*" onchange="showPreview(event);">
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="Image.js"></script>
+</body>
+</html>
